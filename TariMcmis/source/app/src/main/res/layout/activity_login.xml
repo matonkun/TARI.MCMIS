@@ -35,9 +35,9 @@
         android:text="忘記密碼"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
+        android:id="@+id/forgetbtn"
+        android:layout_alignBaseline="@+id/loginbtn"
+        android:layout_alignBottom="@+id/loginbtn"
         android:layout_alignRight="@+id/editText2"
         android:layout_alignEnd="@+id/editText2" />
 
@@ -45,7 +45,7 @@
         android:text="登入"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/loginbtn"
         android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
