@@ -1,3 +1,15 @@
 <resources>
+    <!--登入畫面開始-->
     <string name="app_name">優質作物健康栽培</string>
+    <!--登入畫面結束-->
+    <!--選單用開始-->
+    <string name="Crop_cultivation">作物栽培</string>
+    <string name="Outbreak_Communications">疫情通報</string>
+    <string name="Cultural_Information">栽培資訊</string>
+    <string name="Pest_Information">病蟲害資訊</string>
+    <string name="Merchandise_Tools">資材工具</string>
+    <string name="Link_Tools">連結工具</string>
+    <string name="Agricultural_management">農地管理</string>
+    <string name="Logout">登出</string>
+    <!--選單用結束-->
 </resources>
