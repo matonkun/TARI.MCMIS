@@ -1,6 +1,11 @@
 <resources>
     <!--登入畫面開始-->
     <string name="app_name">優質作物健康栽培</string>
+    <string name="app_inter_name">作物生產管理</string>
+    <string name="Forget_pas">忘記密碼</string>
+    <string name="login">登入</string>
+    <string name="Enter_pas">請輸入密碼</string>
+    <string name="Enter_Account">請輸入帳號</string>
     <!--登入畫面結束-->
     <!--選單用開始-->
     <string name="Crop_cultivation">作物栽培</string>

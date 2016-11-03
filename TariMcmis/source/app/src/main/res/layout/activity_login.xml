@@ -11,7 +11,7 @@
     tools:context="com.ksi.tarimcmis.LoginActivity">
 
     <TextView
-        android:text="作物生產管理"
+        android:text="@string/app_inter_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -27,12 +27,12 @@
         android:ems="10"
         android:layout_marginTop="32dp"
         android:id="@+id/editText"
-        android:hint="請輸入帳號"
+        android:hint="@string/Enter_Account"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="忘記密碼"
+        android:text="@string/Forget_pas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/forgetbtn"
@@ -42,7 +42,7 @@
         android:layout_alignEnd="@+id/editText2" />
 
     <Button
-        android:text="登入"
+        android:text="@string/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loginbtn"
@@ -57,7 +57,7 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editText2"
-        android:hint="請輸入密碼"
+        android:hint="@string/Enter_pas"
         android:layout_below="@+id/editText"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
