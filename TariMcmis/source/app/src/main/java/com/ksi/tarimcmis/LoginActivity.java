@@ -5,10 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button LoginBtn,ForgetBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,19 +17,21 @@ public class LoginActivity extends AppCompatActivity {
 
         findID();
 
-        LoginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent toMenu = new Intent();
-                toMenu.setClass(LoginActivity.this,MenuActivity.class);
-                startActivity(toMenu);
-            }
-        });
-
     }
 
-    private void findID(){
-        LoginBtn = (Button)findViewById(R.id.loginbtn);
-        ForgetBtn = (Button) findViewById(R.id.forgetbtn);
+    private void findID() {
+    }
+
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.forgetbtn:
+                Toast.makeText(view.getContext(), "忘記密碼", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.loginbtn:
+                Intent toMenu = new Intent();
+                toMenu.setClass(LoginActivity.this, MenuActivity.class);
+                startActivity(toMenu);
+                break;
+        }
     }
 }

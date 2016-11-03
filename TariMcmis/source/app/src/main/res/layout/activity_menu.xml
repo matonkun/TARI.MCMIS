@@ -17,7 +17,8 @@
         android:id="@+id/button3"
         android:layout_below="@+id/button1"
         android:layout_alignLeft="@+id/button1"
-        android:layout_alignStart="@+id/button1" />
+        android:layout_alignStart="@+id/button1"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Pest_Information"
@@ -26,7 +27,8 @@
         android:id="@+id/button4"
         android:layout_below="@+id/button2"
         android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
+        android:layout_alignStart="@+id/button2"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Merchandise_Tools"
@@ -35,7 +37,8 @@
         android:id="@+id/button5"
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignStart="@+id/button3"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Link_Tools"
@@ -44,7 +47,8 @@
         android:id="@+id/button6"
         android:layout_below="@+id/button4"
         android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignStart="@+id/button4"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Agricultural_management"
@@ -53,7 +57,8 @@
         android:id="@+id/button7"
         android:layout_below="@+id/button5"
         android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignStart="@+id/button5"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Logout"
@@ -62,7 +67,8 @@
         android:id="@+id/button8"
         android:layout_below="@+id/button6"
         android:layout_alignLeft="@+id/button6"
-        android:layout_alignStart="@+id/button6" />
+        android:layout_alignStart="@+id/button6"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Crop_cultivation"
@@ -73,7 +79,8 @@
         android:layout_marginStart="30dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/Outbreak_Communications"
@@ -84,5 +91,7 @@
         android:layout_marginEnd="30dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick" />
+
 </RelativeLayout>

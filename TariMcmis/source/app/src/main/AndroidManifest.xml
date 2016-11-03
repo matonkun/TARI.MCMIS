@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".Outbreak_Communications_Activity" />
+        <activity android:name=".Crop_cultivation_Activity"></activity>
     </application>
 
 </manifest>
