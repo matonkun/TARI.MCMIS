@@ -38,22 +38,33 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(toOC);
                 break;
             case R.id.button3:
-                Toast.makeText(view.getContext(), "測試項目3", Toast.LENGTH_SHORT).show();
+                //栽培資訊
+                Intent toCI = new Intent();
+                toCI.setClass(MenuActivity.this, Cultural_Information_Activity.class);
+                startActivity(toCI);
                 break;
             case R.id.button4:
-                Toast.makeText(view.getContext(), "測試項目4", Toast.LENGTH_SHORT).show();
+                //病蟲害資訊
+                Intent toPI = new Intent();
+                toPI.setClass(MenuActivity.this, Pest_Information_Activity.class);
+                startActivity(toPI);
                 break;
             case R.id.button5:
-                Toast.makeText(view.getContext(), "測試項目5", Toast.LENGTH_SHORT).show();
+                //資材工具
+                Intent toMT = new Intent();
+                toMT.setClass(MenuActivity.this, Merchandise_Tools_Activity.class);
+                startActivity(toMT);
                 break;
             case R.id.button6:
                 Toast.makeText(view.getContext(), "測試項目6", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button7:
-                Toast.makeText(view.getContext(), "測試項目7", Toast.LENGTH_SHORT).show();
+                Intent toAM = new Intent();
+                toAM.setClass(MenuActivity.this,Agricultural_management_Activity.class);
+                startActivity(toAM);
                 break;
             case R.id.button8:
-                Toast.makeText(view.getContext(), "測試項目8", Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "登出囉", Toast.LENGTH_SHORT).show();
                 break;
         }
 

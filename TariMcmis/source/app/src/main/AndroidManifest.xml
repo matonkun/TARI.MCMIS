@@ -17,7 +17,11 @@
         </activity>
         <activity android:name=".MenuActivity" />
         <activity android:name=".Outbreak_Communications_Activity" />
-        <activity android:name=".Crop_cultivation_Activity"></activity>
+        <activity android:name=".Crop_cultivation_Activity" />
+        <activity android:name=".Cultural_Information_Activity" />
+        <activity android:name=".Pest_Information_Activity" />
+        <activity android:name=".Merchandise_Tools_Activity" />
+        <activity android:name=".Agricultural_management_Activity"></activity>
     </application>
 
 </manifest>
